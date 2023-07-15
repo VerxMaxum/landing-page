@@ -33,22 +33,30 @@ a,
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 64px;   
 }
 
 .awesome {
     display: flex;
     justify-content: center;
+    gap: 8px;
+}
+
+.awesome-text,
+.image {
+    flex: 1 1 64px;
 }
 
 .awesome-text {
-    width: 400px;
     display: flex;
     flex-direction: column;
     flex: auto;
 }
 
 .image {
-    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(180, 180, 180);
     display: flex;
     flex: auto;
