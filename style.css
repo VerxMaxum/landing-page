@@ -204,4 +204,6 @@ a,
 
 #button2 {
     font-size: 28px;
+    border: 2px #E5E7EB solid;
+    padding: 8px 32px 8px 32px;
 }
