@@ -1,6 +1,13 @@
 body {
     margin: 0px;
 }
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+}
+
 .section1 {
     display: flex;
     flex-direction: column;
@@ -40,26 +47,33 @@ a,
     display: flex;
     justify-content: center;
     gap: 8px;
+    margin-bottom: 64px;
 }
 
 .awesome-text,
 .image {
-    flex: 1 1 64px;
+    width: 200px;
+    display: flex;
 }
 
 .awesome-text {
-    display: flex;
     flex-direction: column;
     flex: auto;
+    gap: 8px;
 }
 
 .image {
-    display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(180, 180, 180);
-    display: flex;
     flex: auto;
+}
+
+#button1 {
+    border: none;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 8px 32px 8px 32px;
 }
 
 .information {
@@ -76,10 +90,6 @@ a,
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-}
-
-button {
-    background-color: #3882F6;
 }
 
 ul {
