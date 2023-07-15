@@ -207,3 +207,12 @@ a,
     border: 2px #E5E7EB solid;
     padding: 8px 32px 8px 32px;
 }
+
+.section5 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
