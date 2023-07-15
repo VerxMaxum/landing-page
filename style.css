@@ -8,6 +8,16 @@ button {
     color: #F9FAF8;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .section1 {
     display: flex;
     flex-direction: column;
@@ -125,8 +135,15 @@ a,
 
 
 .section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
     padding: 128px 256px 128px 256px;
+}
+
+.quote-box {
+    width: 1024px;
 }
 
 .quote {
@@ -135,12 +152,10 @@ a,
     color: #1F2937;
 }
 
-ul {
-    list-style-type: none;
+.author {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
     display: flex;
-    gap: 24px;
-}
-
-a {
-    text-decoration: none;
+    justify-content: flex-end;
 }
