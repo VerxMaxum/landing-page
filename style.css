@@ -148,6 +148,9 @@ a,
 
 .quote-box {
     width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .quote {
