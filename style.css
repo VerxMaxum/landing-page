@@ -173,7 +173,35 @@ a,
 }
 
 .blue-box {
+    border-radius: 8px;
     background-color: #3882F6;
     color: #E5E7EB;
     display: flex;
+    padding: 40px 128px 40px 128px;
+    justify-content: space-between;
+}
+
+.blue-box-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.action-text {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.sign-up-text {
+    font-size: 16px;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button2 {
+    font-size: 28px;
 }
