@@ -46,7 +46,7 @@ a,
 .awesome {
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 32px;
     margin-bottom: 64px;
 }
 
@@ -126,6 +126,7 @@ a,
 
 .section3 {
     background-color: #E5E7EB;
+    padding: 128px 256px 128px 256px;
 }
 
 .quote {
